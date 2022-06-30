@@ -11,7 +11,9 @@
     "preinstall": "npx only-allow pnpm",
     "ui:dev": "pnpm run -C packages/theme-chalk build",
     "ui:build": "pnpm run -C packages/lwc-ui build",
-    "cli:build": "pnpm run -C packages/lwc-cli build"
+    "cli:dev": "pnpm run -C packages/lwc-cli dev",
+    "cli:build": "pnpm run -C packages/lwc-cli build",
+    "cli:release": "pnpm run -C packages/lwc-cli release"
   },
   "dependencies": {
     "typescript": "^4.5.2"
@@ -21,6 +23,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0",
+    "release-it": "^15.1.1",
     "rimraf": "^3.0.2"
   }
 }
