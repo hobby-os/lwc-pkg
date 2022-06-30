@@ -1,13 +1,12 @@
 {
   "name": "@lwcpkg/lwc-cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "type": "module",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "bin": {
     "lwc-cli": "./bin/lwc-cli-cmd.js"
   },
-
   "scripts": {
     "dev": "tsc --watch",
     "build": "rimraf ./lib && tsc",
@@ -33,11 +32,10 @@
   "release-it": {
     "git": {
       "tag": false,
-      "commitMessage": "release: @lwc-pkg/lwc-cli ${version}"
+      "commitMessage": "release: @lwc/lwc-cli ${version}"
     }
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.3.0"
