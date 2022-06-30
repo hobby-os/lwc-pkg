@@ -1,0 +1,4 @@
+# defines the root of the workspace and enables you to include / exclude directories from the workspace. 
+# By default, all packages of all subdirectories are included.
+packages:
+  - 'packages/*'

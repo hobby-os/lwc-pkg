@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "lwc-pkg",
+  "description": "one frontend packages.",
+  "packageManager": "pnpm@7.4.0",
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "preinstall": "npx only-allow pnpm",
+    "ui:dev": "pnpm run -C packages/theme-chalk build",
+    "ui:build": "pnpm run -C packages/lwc-ui build",
+    "cli:build": "pnpm run -C packages/lwc-cli build"
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.0",
+    "rimraf": "^3.0.2"
+  }
+}

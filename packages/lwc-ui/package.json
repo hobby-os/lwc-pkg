@@ -1,0 +1,42 @@
+{
+  "name": "@lwcpkg/lwc-ui",
+  "version": "1.0.1",
+  "description": "App UI Components For Vue",
+  "main": "lib/lwcui.cjs.js",
+  "module": "es/index.mjs",
+  "style": "lib/index.css",
+  "typings": "lib/index.d.ts",
+  "unpkg": "lib/lwcui.min.js",
+  "jsdelivr": "lib/lwcui.min.js",
+  "files": [
+    "es",
+    "lib",
+    "vetur"
+  ],
+  "scripts": {
+    "dev": "lwc-cli dev",
+    "build": "lwc-cli build"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "liuwenchen",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "vue",
+    "vue3",
+    "mobile",
+    "frontend",
+    "component",
+    "components"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@lwcpkg/lwc-cli": "workspace:*"
+  }
+}
