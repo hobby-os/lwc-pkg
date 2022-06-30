@@ -1,5 +1,5 @@
 {
-  "name": "@lwcpkg/lwc-ui",
+  "name": "@lwc/lwc-ui",
   "version": "1.0.1",
   "description": "App UI Components For Vue",
   "main": "lib/lwcui.cjs.js",
@@ -37,6 +37,6 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@lwcpkg/lwc-cli": "workspace:*"
+    "@lwc/lwc-cli": "workspace:*"
   }
 }

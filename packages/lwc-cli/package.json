@@ -1,5 +1,5 @@
 {
-  "name": "@lwcpkg/lwc-cli",
+  "name": "@lwc/lwc-cli",
   "version": "1.0.0",
   "type": "module",
   "main": "lib/index.js",
