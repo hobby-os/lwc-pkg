@@ -1,6 +1,6 @@
 {
-  "name": "@lwc/lwc-cli",
-  "version": "1.0.0",
+  "name": "@lwcpkg/lwc-cli",
+  "version": "1.0.1",
   "type": "module",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -32,7 +32,7 @@
   "release-it": {
     "git": {
       "tag": false,
-      "commitMessage": "release: @lwc/lwc-cli ${version}"
+      "commitMessage": "release: @lwcpkg/lwc-cli ${version}"
     }
   },
   "devDependencies": {},
