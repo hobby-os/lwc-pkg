@@ -1,4 +1,8 @@
 {
     "singleQuote": true,
-    "proseWrap": "never"
+    "proseWrap": "never",
+    "printWidth": 150, 
+    "tabWidth": 2, 
+    "semi": false, 
+    "endOfLine": "auto"
   }

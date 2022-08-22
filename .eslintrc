@@ -1,6 +1,4 @@
 {
   "root": true,
-  "rules": {
-    "prefer-object-spread": "off"
-  }
+  "extends": ["@lwcpkg/eslint-config"]
 }

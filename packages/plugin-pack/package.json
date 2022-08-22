@@ -1,0 +1,48 @@
+{
+  "name": "@lwcpkg/plugin-pack",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "bin": {
+    "plugin-pack": "./bin/cli-cmd.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rimraf ./lib && tsc",
+    "release": "pnpm build & release-it",
+    "prepare": "pnpm build"
+  },
+  "author": "liuwenchen",
+  "license": "MIT",
+  "keywords": [
+    "lwc-pkg",
+    "plugin-pack",
+    "pack"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/habby-os/lwc-pkg.git",
+    "directory": "packages/plugin-pack"
+  },
+  "bugs": "https://github.com/habby-os/lwc-pkg/issues",
+  "release-it": {
+    "git": {
+      "tag": false,
+      "commitMessage": "release: @lwcpkg/plugin-pack ${version}"
+    }
+  },
+  "devDependencies": {
+    "@lwcpkg/eslint-config": "workspace:*"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "libType": "lib", 
+  "input": "./src/index.ts", 
+  "name": "SpecialUtils", 
+  "globals": { }, 
+  "plugins": [ ], 
+  "sourcemap": false, 
+  "bundleOption": [
+      {
+          "minify": false, 
+          "formats": [
+              "umd"
+          ]
+      }, 
+      {
+          "minify": true, 
+          "formats": [
+              "umd"
+          ]
+      }, 
+      {
+          "minify": false, 
+          "formats": [
+              "esm", 
+              "cjs"
+          ]
+      }
+  ]
+}

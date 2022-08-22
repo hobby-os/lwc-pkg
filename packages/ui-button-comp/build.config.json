@@ -1,0 +1,28 @@
+{
+  "libType": "vue", 
+  "input": "./src/index.ts", 
+  "name": "ButtonComp", 
+  "globals": { "vue": "Vue"}, 
+  "plugins": [ ], 
+  "sourcemap": false, 
+  "bundleOption": [
+      {
+          "minify": false, 
+          "formats": [
+              "umd"
+          ]
+      }, 
+      {
+          "minify": true, 
+          "formats": [
+              "umd"
+          ]
+      }, 
+      {
+          "minify": false, 
+          "formats": [
+              "esm"
+          ]
+      }
+  ]
+}

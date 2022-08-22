@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["@lwcpkg/eslint-config"],
+  "rules": {
+    // "off" can import "./common/index.js"
+    "unicorn/import-index": "off"
+  }
+}

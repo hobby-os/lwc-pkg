@@ -5,7 +5,7 @@
 
 # editor
 .idea
-.vscode
+# .vscode
 
 # npm
 node_modules

@@ -1,0 +1,18 @@
+{
+  "name": "@lwcpkg/special-utils",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/lib/index.js",
+  "typings": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "plugin-pack build",
+    "release": "plugin-pack build & plugin-pack release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lwcpkg/eslint-config": "workspace:*",
+    "@lwcpkg/plugin-pack": "workspace:*"
+  }
+}
